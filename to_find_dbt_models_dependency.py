@@ -2,7 +2,7 @@ from sys import argv
 from pathlib import Path
 from xlsxwriter import Workbook
 from re import search , findall
-var1 = sys.argv[1]      #give the path address of your dbt models directory   ../dbt_enviroment/mode
+var1 = sys.argv[1]      #give the path address of your dbt models directory   ../dbt_enviroment/models
 var2 = var1.replace('\\' , '/')
 temp = var2.replace('/' , '\\')
 txt_folder = Path(var2).rglob('*.sql')

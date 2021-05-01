@@ -6,7 +6,7 @@ More details browse here https://docs.getdbt.com/docs
 Now coming to the above python code,,,,
 Run this python script from command line and give the path address of your dbt models as argument , and the python script gives the details of model(table) dependencies i.e its source and reference tables. All this details are captured in excel file and that excel file will be in the model directory itself...
 
-cmd inuput argument: ../dbt_enviroment/models
+cmd inuput argument: ../dbt_enviroment/models             
 output file: ../dbt_environment/models/dbt_models_dependency_list.xlsx
 
 This code will be usefull for those who run all the models at once in a production deployment and also want track the source and reference tables of the model
